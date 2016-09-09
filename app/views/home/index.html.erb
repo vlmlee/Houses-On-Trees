@@ -1,0 +1,112 @@
+<%= render 'layouts/header' %>
+
+    <section class="splash">
+        <div class="calltoaction">
+            <div class="row">
+                <div class="col-xs-2">
+                </div>
+                <div class="col-xs-6">
+                    <h1 class="heading">Welcome to <br>your next project.</h1>
+                    <a href="#learnmore" class="custom-btn learn-btn scroll">Learn More</a>
+                    <a href="#schematics" class="custom-btn schematics-btn scroll">Schematics</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a id="learnmore"></a>
+    <section class="separator">
+        <%= image_tag "treehouse.svg", class: 'treehouse' %>
+            <div class="team">
+                <p> We're a team of artists, designers, and engineers who love creative outdoor living spaces. </p>
+                <p> Lets build together. </p>
+            </div>
+            <div class="buttons">
+                <%= link_to "About Us", company_about_us_path, class: 'custom-btn schematics-btn' %>
+
+                    <%= link_to "The Team", company_the_team_path, class: 'custom-btn schematics-btn' %>
+
+            </div>
+    </section>
+
+    <a id="schematics"></a>
+    <section class="about">
+        <h1> Discover unique designs. </h1>
+        <hr>
+        <!-- Carousel -->
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <%=image_tag 'schematic1.jpg' %>
+                </div>
+                <div class="carousel-item item-2">
+                    <%=image_tag 'schematic2.png' %>
+                </div>
+                <div class="carousel-item">
+                    <%=image_tag 'schematic3.jpg'%>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                <span class="icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                <span class="icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- Carousel -->
+        <div class="buttons about-buttons">
+            <%=link_to "Shop our store", store_root_path, class: 'custom-btn shop-btn' %>
+        </div>
+    </section>
+
+    <section class="custom">
+        <h1> Looking for something special? </h1>
+        <p> We can take your custom project
+            <br> <span class="em"> from drafting stage to completion. </span></p>
+        <div class="row icons">
+            <div class="col-xs-3">
+            </div>
+            <div class="col-xs-1">
+                <%=image_tag 'tree.svg', class: 'icon' %>
+            </div>
+            <div class="col-xs-1">
+                <%=image_tag 'chevron-small-right.svg', class: 'icon' %>
+            </div>
+            <div class="col-xs-1">
+                <%=image_tag 'tools.svg', class: 'icon' %>
+            </div>
+            <div class="col-xs-1">
+                <%=image_tag 'chevron-small-right.svg', class: 'icon' %>
+            </div>
+            <div class="col-xs-1">
+                <%=image_tag 'home.svg', class: 'icon' %>
+            </div>
+            <div class="col-xs-1">
+                <%=image_tag 'check.svg', class: 'icon' %>
+            </div>
+        </div>
+    </section>
+
+    <section class="schematic">
+    </section>
+
+    <section class="discover">
+    </section>
+
+    <section class="subscribe">
+        <h1>Subscribe</h1>
+        <p> Subscribe to our newsletter to see updates on our schematics and other products. </p>
+        <form class="subscribe-form">
+            <input type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'" placeholder="Your Email Address"></input>
+            <input type="submit" value="Subscribe"> </input>
+        </form>
+    </section>
+
+    <%= render 'layouts/footer' %>
