@@ -116,7 +116,7 @@ h1 {
 
 .icons {
     display: block;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 0;
 }
 
 .treehouse {
@@ -221,7 +221,7 @@ h1 {
     }
     .carousel-item img {
         display: float;
-        margin: 30px auto 0 auto;
+        margin: 30px auto 0;
         padding-top: 30px;
         height: 500px;
         width: 550px;
@@ -315,7 +315,7 @@ h1 {
         background: transparent;
         border: 1px #fff solid;
         text-transform: uppercase;
-        padding: 12px 10px 10px 10px;
+        padding: 12px 15px 10px 15px;
         color: #fff;
     }
     textarea:focus,

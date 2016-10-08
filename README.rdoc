@@ -3,3 +3,5 @@
 This is a design project, mostly. Decided to go with a dark theme.
 
 It's a mockup of an ecommerce website that sells schematics, furniture, and accessories for treehouses using ruby on rails as the stack. 
+
+All images were shamelessly taken from the internet for educational and non-commercial use. 
