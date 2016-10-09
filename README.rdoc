@@ -6,4 +6,4 @@ It's a mockup of an ecommerce website that sells schematics, furniture, and acce
 
 I've previously worked in the shopify environment but realized that I lacked the knowledge to build a ecommerce website from scratch. So this project is mostly to practice and gain a deep understanding of ecommerce design patterns.
 
-You can find this web app hosted at www.housesontree.com.
+You can find this web app hosted at www.housesontrees.com.
