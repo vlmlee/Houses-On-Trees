@@ -2,10 +2,6 @@
 
 This is a design project, mostly. Decided to go with a dark theme.
 
-It's a mockup of an ecommerce website that sells schematics, furniture, and accessories for treehouses using ruby on rails as the stack. 
-
-All images were shamelessly taken from the internet for educational and non-commercial use. 
-=======
 It's a mockup of an ecommerce website that sells schematics, furniture, and accessories for treehouses using ruby on rails, postgresql, capistrano, unicorn, and nginx as the stack. 
 
 I've previously worked in the shopify environment but realized that I lacked the knowledge to build a ecommerce website from scratch. So this project is mostly to practice and gain a deep understanding of ecommerce design patterns.
